@@ -1,8 +1,8 @@
-Project Overview
+## Project Overview
 
 Analyzed COVID-19 mortality data from the CDC’s Contributing Factors dataset using SQL to uncover patterns in death rates by state, age group, and contributing health conditions. Designed to demonstrate healthcare data analysis skills suitable for healthcare analytics and public health informatics roles.
 
-Objectives
+## Objectives
 
 Clean and validate COVID-19 death records dataset
 
@@ -14,7 +14,7 @@ Analyze contributing conditions associated with higher mortality
 
 Generate insights into age-specific and state-specific trends
 
-Dataset Description
+## Dataset Description
 
 Source: CDC’s COVID-19 Contributing Factors Data (CSV)
 Key Columns:
@@ -35,7 +35,7 @@ number_of_mentions
 
 flags
 
-Tools & Technologies
+## Tools & Technologies
 
 PostgreSQL (via pgAdmin)
 
@@ -47,8 +47,7 @@ Date functions (EXTRACT(), DATE_TRUNC())
 
 Data validation queries (DISTINCT, COUNT(), HAVING)
 
-
-Key Analyses & Queries
+## Key Analyses & Queries
 
 Total COVID-19 deaths per state per year
 
@@ -56,7 +55,7 @@ Deaths by age group and condition
 
 Death trends by month and year
 
-Top contributing conditions per state
+## Top contributing conditions per state
 
 Deaths with vs without contributing conditions by age group
 
@@ -68,7 +67,7 @@ Average contributing conditions per death
 
 Data quality checks for unexpected labels and flags
 
-Key Findings
+## Key Findings
 
 Certain states consistently experienced higher COVID-19 deaths, especially in 2020-2021
 
@@ -80,12 +79,3 @@ The number of deaths involving multiple contributing factors was higher in elder
 
 Several records contained unusual or unknown flags requiring cleaning
 
- Resume Summary Bullet
-
-Analyzed CDC COVID-19 mortality data using advanced SQL queries to identify trends in deaths by state, age group, and contributing conditions.
-
-Utilized window functions and date-based aggregations to evaluate mortality trends and rank states annually.
-
-Delivered insights on high-risk demographics and comorbidity trends to support public health decision-making.
-
-Project completed in PostgreSQL using CDC open data for healthcare data analytics career portfolio.
