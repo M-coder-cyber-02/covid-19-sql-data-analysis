@@ -14,6 +14,23 @@ Analyze contributing conditions associated with higher mortality
 
 Generate insights into age-specific and state-specific trends
 
+--
+
+## Files
+`covid_analysis.sql` – Contains all SQL queries grouped into:
+
+   Data Cleaning – Checking nulls, distinct values, and date ranges
+
+   Exploratory Analysis – Trends by state, year, age group, and conditions
+
+   Advanced Analytics – Window functions like RANK(), comparisons
+ 
+   Outlier Checks – Unexpected flags and validation for age totals
+
+`README.md` – Project overview and explanation
+
+---
+
 ## Dataset Description
 
 Source: CDC’s COVID-19 Contributing Factors Data (CSV)
@@ -69,13 +86,22 @@ Data quality checks for unexpected labels and flags
 
 ## Key Findings
 
-Certain states consistently experienced higher COVID-19 deaths, especially in 2020-2021
+Certain states consistently experienced higher COVID-19 deaths, especially in 2021 & 2023
 
 Older age groups had significantly higher death rates
 
-Common contributing factors included respiratory diseases, diabetes, and cardiac conditions
+Common contributing factors included influenza, pneumonia, respiratory failure, hypertensive diseases and diabetes
 
 The number of deaths involving multiple contributing factors was higher in elderly groups
 
 Several records contained unusual or unknown flags requiring cleaning
+
+---
+
+## Author
+
+**Mahwish Malik**  
+Master’s Student – Health Informatics  
+📍 Passionate about data analytics, healthcare systems, and SQL-based insights
+
 
